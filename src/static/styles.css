@@ -57,6 +57,53 @@ section h3 {
   color: #1a237e;
 }
 
+#auth-status {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#register-form {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px dashed #ddd;
+}
+
+#register-form h4,
+#role-nav h4 {
+  margin-bottom: 10px;
+  color: #1a237e;
+}
+
+#logout-btn {
+  margin-top: 12px;
+}
+
+#role-dashboard {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border: 1px solid #a5d6a7;
+}
+
+#role-nav {
+  margin-top: 15px;
+  padding-top: 12px;
+  border-top: 1px dashed #ccc;
+}
+
+#role-nav-links {
+  list-style: none;
+  padding-left: 0;
+}
+
+#role-nav-links li {
+  padding: 6px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
 .activity-card {
   margin-bottom: 15px;
   padding: 15px;
