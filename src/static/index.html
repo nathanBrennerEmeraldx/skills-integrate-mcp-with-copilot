@@ -13,6 +13,44 @@
     </header>
 
     <main>
+      <section id="auth-container">
+        <h3>Account</h3>
+        <div id="auth-status" class="info">Not logged in</div>
+
+        <form id="login-form">
+          <div class="form-group">
+            <label for="login-email">Email:</label>
+            <input type="email" id="login-email" required placeholder="member@mergington.edu" />
+          </div>
+          <div class="form-group">
+            <label for="login-password">Password:</label>
+            <input type="password" id="login-password" required placeholder="••••••••" />
+          </div>
+          <button type="submit">Log In</button>
+        </form>
+
+        <form id="register-form">
+          <h4>Create Member Account</h4>
+          <div class="form-group">
+            <label for="register-email">Email:</label>
+            <input type="email" id="register-email" required placeholder="new-student@mergington.edu" />
+          </div>
+          <div class="form-group">
+            <label for="register-password">Password:</label>
+            <input type="password" id="register-password" required placeholder="At least 6 characters" minlength="6" />
+          </div>
+          <button type="submit">Register</button>
+        </form>
+
+        <button id="logout-btn" class="hidden" type="button">Log Out</button>
+
+        <div id="role-dashboard" class="hidden"></div>
+        <nav id="role-nav" class="hidden">
+          <h4>Role Navigation</h4>
+          <ul id="role-nav-links"></ul>
+        </nav>
+      </section>
+
       <section id="activities-container">
         <h3>Available Activities</h3>
         <div id="activities-list">
